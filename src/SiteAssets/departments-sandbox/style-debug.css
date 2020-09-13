@@ -1,0 +1,67 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.empl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.employees__list {
+  width: 700px;
+}
+
+.employees__header,
+.employees__item {
+  display: flex;
+}
+
+.employees__header,
+.employees__item {
+  margin-bottom: 20px;
+}
+
+.employees__item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.employees__header div,
+.employees__field {
+  width: 200px;
+}
+
+.employees__header span {
+  font-weight: bold;
+}
+
+.form__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+}
+
+.form__input,
+.form__select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__button {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background-color: darkgray;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form__button:hover {
+  background-color: grey;
+  color: greenyellow;
+}
